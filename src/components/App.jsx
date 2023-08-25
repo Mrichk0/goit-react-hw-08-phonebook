@@ -7,7 +7,6 @@ import NavigationRoutes from './NavigationRoutes';
 
 export const App = () => {
   const dispatch = useDispatch();
-  console.log(dispatch);
 
   useEffect(() => {
     dispatch(fetchCurrentUser());
